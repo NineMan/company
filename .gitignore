@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.env
+.config.env
+
+# WebStorm / PyCharm
+.DS_Store
+.idea
+
+# Visual Studio Code
+.vscode
+
+# Sqlite databases:
+*.db
+*.sqlite3
+
+# Logs
+log/
+
+# Python virtualenv
+venv/*
+
+# Static
+foto/
+fixtures/
+*.html.py
+*txt.py
+
+build/*
+dist/*
+
+*.tmp.*
